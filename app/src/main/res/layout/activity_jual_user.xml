@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fff"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#fff"
+        >
+
+        <ImageView
+            android:id="@+id/image_koran"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/tukangloak"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="#fff"/>
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Barang Loak"
+            android:textColor="@color/colorblack"
+            android:drawableRight="@drawable/arrow"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/image_koran1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/koran"
+            android:background="#fff"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <ImageButton
+            android:id="@+id/image_botol1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_beer"
+            android:background="#fff"
+            android:layout_marginRight="20dp"
+            />
+        <ImageButton
+            android:id="@+id/image_kardus1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_kardus"
+            android:background="#fff"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jual"
+        android:textColor="@color/colorblack"
+        android:textSize="20sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Jual Cepat"
+            android:drawableLeft="@drawable/phone"
+            android:background="@drawable/btn_jualcepat"
+            android:textSize="15sp"
+            android:textColor="#fff"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Jual Santai"
+            android:drawableLeft="@drawable/phone"
+            android:background="@drawable/btn_jualcepat"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

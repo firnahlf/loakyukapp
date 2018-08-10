@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fff"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#fff"
+        >
+
+        <ImageButton
+            android:id="@+id/image_koran"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/koran"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="#fff"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="@string/koran"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorblack"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/image_kardus"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_kardus"
+            android:background="#fff"
+                />
+
+        <ImageButton
+            android:id="@+id/image_botol"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_beer"
+            android:background="#fff"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
